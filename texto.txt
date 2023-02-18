@@ -1,0 +1,7 @@
+1 - criar um sorteador de FIGURAS RITMICAS
+(semibreve, minima, seminima, colcheia, semicolcheia, fusa, tercina e quialtera)
+pode repetir - seleciona 4
+
+2 - criar um sorteador de MODOS GREGOS
+(jonio, dorico, frigio, lidio, mixolidio, eolio, locrio)
+proibido repetir -  seleciona 2 
