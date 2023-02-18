@@ -2,36 +2,50 @@
 <html lang="pt-br">
 
 <head>
+    <link rel="shortcut icon" href="assets/musica.png">
     <meta charset="UTF-8">
-    <title>Sorteador</title>
+    <title>Sorteador Musical</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div class="div1">
-        <h2>Figuras ritmicas</h2>
-        <span id="primeiro-item"></span>
-        <span id="segundo-item"></span>
-        <span id="terceiro-item"></span>
-        <span id="quarto-item"></span>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.1/css/bootstrap.min.css">
 
-        <p></p>
 
-        <button onclick="sorteadorFigurasRitmicas()">Sorteie suas figuras ritmicas</button>
-        <p></p>
-    
+    <div class="row">
+
+        <div class="col-sm-6">
+          <div class="card left">
+            <div class="card-body">
+              <h3 class="card-title">Figuras ritmicas</h5>
+              <span id="primeiro-item"></span>
+              <span id="segundo-item"></span>
+              <span id="terceiro-item"></span>
+              <span id="quarto-item"></span>
+              <p></p>
+              <button id="button" onclick="sorteadorFigurasRitmicas()">Sorteie suas figuras ritmicas</button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-sm-6">
+          <div class="card right">
+            <div class="card-body">
+              <h3 class="card-title">Modos gregos</h5>
+                <span id="primeiro-grego-item"></span>
+                <span id="segundo-grego-item"></span>
+                <p></p>
+              <button onclick="sorteadorModosGregos()" class="btn btn-primary">Sorteie seus modos gregos</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
-    <div class="div2">
-
-        <h2>Modos gregos</h2>
-        <span id="primeiro-grego-item"></span>
-        <span id="segundo-grego-item"></span>
-
-        <p></p>
-        <button id="btn" onclick="sorteadorModosGregos()">Sorteie seus modos gregos</button>
 
 
-    </div>
 
     <script src="js/script.js"></script>
 </body>
